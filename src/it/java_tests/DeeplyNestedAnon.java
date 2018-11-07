@@ -31,13 +31,13 @@ public class DeeplyNestedAnon {
     
         final int x = 8;
 
-        Object o = new TopClass(5) {
+        Object o = new TopClassDNA(5) {
           
             public int getB(){
                 
                 final int y = 9;
 
-                Object obj = new TopClass(){
+                Object obj = new TopClassDNA(){
                     public int getB(){
                         return y;
                     }
@@ -50,7 +50,7 @@ public class DeeplyNestedAnon {
             }
         };
 
-        o = new TopClass(){
+        o = new TopClassDNA(){
             public int getB(){
                 return 7;
             }
@@ -59,11 +59,11 @@ public class DeeplyNestedAnon {
 
    
 }
-class TopClass {
+class TopClassDNA {
 
-    public TopClass(int x){
+    public TopClassDNA(int x){
     }
-    public TopClass(){
+    public TopClassDNA(){
     }
     public int getB(){
         return 2;

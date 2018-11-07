@@ -139,7 +139,7 @@ public class SootThread extends Thread {
 					}
 				}
 			}
-			setCfgList(soot.Scene.v().getPkgList());
+			setCfgList(new ArrayList(soot.Scene.v().getPkgList()));
 			getParent().setCfgList(getCfgList());
 			
 		}

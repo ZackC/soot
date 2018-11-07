@@ -971,6 +971,9 @@ public class PackManager {
     // method is created as a phantom method when phantom-refs are enabled
     ArrayList<SootMethod> methodsCopy = new ArrayList<SootMethod>(c.getMethods());
     for (SootMethod m : methodsCopy) {
+      if (m.getDeclaringClass().getName().contains("OtherMetadata") && m.getName().contains("onCreateView")){
+        System.out.println("in PackManager line 975 for debugging");
+      }
       if (DEBUG) {
         if (m.getExceptions().size() != 0) {
           System.out.println("PackManager printing out jimple body exceptions for method " + m.toString() + " "

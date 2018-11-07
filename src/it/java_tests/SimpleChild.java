@@ -19,12 +19,13 @@
  * <http://www.gnu.org/licenses/lgpl-2.1.html>.
  * #L%
  */
-class Simple {
-    public Simple () {
+class SimpleParent {
+    public SimpleParent () {
         System.out.println("Smile");
     }
+
 }
-public class SimpleChild extends Simple {
+public class SimpleChild extends SimpleParent {
     public static void main(String[] args) { int i = 9; }
     
     public SimpleChild() { super(); }

@@ -22,16 +22,16 @@
 public class CallTests {
 
     public static void main (String [] args) {
-        Position p = new Position(3,4);
+        PositionCt p = new PositionCt(3,4);
         System.out.println("Line: "+p.line()+" Col: "+p.col());
     }
 }
 
-class Position {
+class PositionCt {
 
     int line;
     int col;
-    public Position(int line, int col) {
+    public PositionCt(int line, int col) {
         this.line = line;
         this.col = col;
     }

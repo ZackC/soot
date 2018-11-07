@@ -1751,6 +1751,7 @@ public class Scene // extends AbstractHost
       for (final String path : Options.v().process_dir()) {
         for (String cl : SourceLocator.v().getClassesUnder(path)) {
           SootClass theClass = loadClassAndSupport(cl);
+          System.out.println(theClass.getName());
           if (!theClass.isPhantom) {
             theClass.setApplicationClass();
           }

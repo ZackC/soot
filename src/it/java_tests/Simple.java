@@ -39,19 +39,7 @@ public class Simple {
         Simple.getString().toString();
         System.out.println(Simple.add(2,3));
         simple.run();
-    }
-   
-    public static String getString(){ return "Hello";}
-    public static int add(int i, int j) { return i + j; }
-    
-    public Simple() { 
-        //super(); 
-    
-        this (8);
-    }
-    public Simple(int y ) {
-        this.x = y;
-        System.out.println(this.x);
+        simple.run();
     }
 
     public void run(){
@@ -63,7 +51,7 @@ public class Simple {
         int k = +(i + j);
         int l = +k;
         double m = +0.9;
-   
+
         int n = ~j;
 
         boolean b = true;
@@ -75,7 +63,7 @@ public class Simple {
         if (b || c) {
             System.out.println("Cond_or");
         }
-        
+
         if (b & c) {
             System.out.println("Bit_and");
         }
@@ -96,7 +84,7 @@ public class Simple {
         int a = 9;
         int b1 = 8;
         int [][] intArr = new int [a+b1][9];
-        
+
         int [] arr = {1 , 2, 3};
         System.out.println(arr[0]);
         Integer int1 = new Integer(8);
@@ -111,12 +99,26 @@ public class Simple {
             Integer intRep = (Integer)it.next();
             System.out.println(intRep.intValue());
         }
-        
+
         int i2 = 4;
         while (i2 < 10 ) {
             System.out.println(i2);
             i2 = i2 + 2;
         }
     }
+    public static String getString(){ return "Hello";}
+    public static int add(int i, int j) { return i + j; }
+    
+    public Simple() { 
+        //super(); 
+    
+        this (8);
+    }
+    public Simple(int y ) {
+        this.x = y;
+        System.out.println(this.x);
+    }
+
+
 }
 

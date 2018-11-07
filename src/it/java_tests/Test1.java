@@ -19,7 +19,7 @@
  * <http://www.gnu.org/licenses/lgpl-2.1.html>.
  * #L%
  */
-interface MyListener {
+interface MyListener1 {
     public void action();
 }
 public class Test1 {
@@ -30,17 +30,17 @@ public class Test1 {
     }
 
     public void run(){
-        new MyListener () {
+        new MyListener1 () {
             public void action(){
                 System.out.println("Smile");
             }
         }.action();
-        new MyListener () {
+        new MyListener1 () {
             public void action(){
                 System.out.println("Smile 2");
             }
         }.action();
-        new MyListener () {
+        new MyListener1 () {
             public void action(){
                 System.out.println("Smile 3");
             }

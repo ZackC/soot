@@ -31,7 +31,7 @@ import java.util.*;
 /** 
    Example to instrument a classfile to produce goto counts. 
  */
-public class MyMain
+public class GotoInstrumenterMain
 {    
     public static void main(String[] args) 
     {

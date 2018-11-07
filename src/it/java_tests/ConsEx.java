@@ -28,6 +28,4 @@ public class ConsEx {
         throw new MyException();
     }
 }
-class MyException extends Exception{
 
-}

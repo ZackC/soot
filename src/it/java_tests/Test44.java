@@ -19,15 +19,7 @@
  * <http://www.gnu.org/licenses/lgpl-2.1.html>.
  * #L%
  */
-class Helper {
 
-    public static void main(String [] args){
-    }
-
-    public void action(){
-        System.out.println("Helper");
-    }
-}
 public class Test44{
 
     public static void main(String [] args){

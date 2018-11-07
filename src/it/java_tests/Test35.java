@@ -19,7 +19,7 @@
  * <http://www.gnu.org/licenses/lgpl-2.1.html>.
  * #L%
  */
-class Test60 {
+class Test3560 {
 
     public static void main(String [] args){
         Inner in = new Inner();
@@ -41,7 +41,7 @@ public class Test35 {
     }
 
     public void run (){
-        new Test60.Inner();
+        new Test3560.Inner();
     }
 
 }

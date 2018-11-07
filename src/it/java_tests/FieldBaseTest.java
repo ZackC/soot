@@ -21,8 +21,8 @@
  */
 public class FieldBaseTest {
 
-    Point p1 = new Point();
-    Point p2 = new Point();
+    PointFBT p1 = new PointFBT();
+    PointFBT p2 = new PointFBT();
 
     public static void main(String [] args){
         FieldBaseTest f = new FieldBaseTest();
@@ -43,14 +43,14 @@ public class FieldBaseTest {
         }
     }
 
-    public void test(Point p){
+    public void test(PointFBT p){
         if (p.x > 3){
             p.y = 3;
         } 
     }
 }
 
-class Point {
+class PointFBT{
 
     public int x;
     public int y;

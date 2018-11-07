@@ -19,14 +19,14 @@
  * <http://www.gnu.org/licenses/lgpl-2.1.html>.
  * #L%
  */
-class C {
+class C_fg {
     int x;
 }
 
 public class FieldGets {
 
     public static void main(String[] args) {
-        C c = new C();
+        C_fg c = new C_fg();
         c.x = 3;
         int i = 7;
         int j = 8;

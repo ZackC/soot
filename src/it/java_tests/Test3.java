@@ -19,41 +19,41 @@
  * <http://www.gnu.org/licenses/lgpl-2.1.html>.
  * #L%
  */
-interface MyListener {
+interface MyListener3 {
     public void action();
 }
 public class Test3 {
 
     public static void main (String [] args){
         Test3 t3 = new Test3();
-        MyListener ml = t3.run(2);
+        MyListener3 ml = t3.run(2);
         ml.action();
     }
 
-    public MyListener run(int x){
+    public MyListener3 run(int x){
         if (x == 1){
-            class MyListener1 implements MyListener{
+            class MyListener1_3 implements MyListener3{
                 public void action(){
                     System.out.println("Smile");
                 }
             };
-            return new MyListener1();
+            return new MyListener1_3();
         }
         else if (x == 2){
-            class MyListener2 implements MyListener{
+            class MyListener2_3 implements MyListener3{
                 public void action(){
                     System.out.println("Smile 2");
                 }
             };
-            return new MyListener2();
+            return new MyListener2_3();
         }
         else {
-            class MyListener3 implements MyListener{
+            class MyListener3_3 implements MyListener3{
                 public void action(){
                     System.out.println("Smile 3");
                 }
             };
-            return new MyListener3();
+            return new MyListener3_3();
         }
     }
 }

@@ -35,6 +35,3 @@ public class ThrowsTest {
     }
     
 }
-class MyException extends Exception{
-
-}

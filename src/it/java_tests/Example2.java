@@ -19,7 +19,7 @@
  * <http://www.gnu.org/licenses/lgpl-2.1.html>.
  * #L%
  */
-public class Example {
+public class Example2 {
     public static final void main( String[] args ) {
         int x,y,z;
         z = 1;

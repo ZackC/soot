@@ -23,13 +23,13 @@ import java.lang.reflect.*;
 
 public class ReflectProblem {
     public static void main(String [] args) throws Exception{
-        Field f = C.class.getField("cf");
+        Field f = C_rp.class.getField("cf");
         System.out.println(f);
     }
 }
 
-interface I{}
+interface I_rp{}
 
-class C implements I{
+class C_rp implements I_rp{
     public int cf;
 }

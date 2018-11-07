@@ -25,7 +25,7 @@ import soot.PackManager;
 import soot.Transform;
 import soot.toolkits.graph.ExceptionalUnitGraph;
 
-public class MyMain {
+public class BodyTransformerMain {
 
 	public static void main(String[] args) {
 		PackManager.v().getPack("jtp").add(

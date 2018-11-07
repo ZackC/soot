@@ -19,7 +19,7 @@
  * <http://www.gnu.org/licenses/lgpl-2.1.html>.
  * #L%
  */
-class OtherClass{
+class OtherClassST{
     public static void run(){
     }
 }
@@ -27,6 +27,6 @@ public class StaticMethodOtherClass {
 
     public static void main(String [] args){
     
-        OtherClass.run();
+        OtherClassST.run();
     }
 }

@@ -19,9 +19,6 @@
  * <http://www.gnu.org/licenses/lgpl-2.1.html>.
  * #L%
  */
-interface MyListener {
-    public void action();
-}
 public class Test7 {
 
     public static void main (String [] args){

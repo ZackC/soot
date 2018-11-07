@@ -22,7 +22,7 @@
 
 
 
-class Aaa {
+class Aaa78 {
 
     public class Ccc {
         public int yy;
@@ -32,12 +32,12 @@ class Aaa {
 	}
 
 	public void bar() {
-	System.out.println(Aaa.this.x + this.yy);
+	System.out.println(Aaa78.this.x + this.yy);
 	class BBB {
 	    int u = 0;
 	    public void bar2() {
 		ddd.bar3();
-		System.out.println(Aaa.this.x + this.u + Aaa.Ccc.this.yy);
+		System.out.println(Aaa78.this.x + this.u + Aaa78.Ccc.this.yy);
 	     }
 	    class Ddd {
 		int v = 0;
@@ -59,7 +59,7 @@ class Aaa {
     public int x;
 
     public Ccc ccc;
-    public Aaa() {
+    public Aaa78() {
        ccc = new Ccc();
        x = 3;
     }
@@ -69,7 +69,7 @@ public class Test78 {
 
 
     public static void main(String[] args) { 
-	Aaa aaa = new Aaa();
+	Aaa78 aaa = new Aaa78();
 	System.out.println(aaa.x);
 	aaa.ccc.bar();
     } 

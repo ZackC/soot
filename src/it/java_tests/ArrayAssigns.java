@@ -25,7 +25,7 @@ public class ArrayAssigns {
         int [] arr = new int [] {1, 2, 3};
         int i = 0;
         
-        D d = new D(9);
+        D_aa d = new D_aa(9);
         arr[i++] += d.height;
         arr[i++] += d.height;
         //S s = new S(8);
@@ -41,9 +41,9 @@ class S {
         height = i;
     }
 }
-class D {
+class D_aa{
     int height;
-    public D(int i){
+    public D_aa(int i){
         height = i;
     }
 }

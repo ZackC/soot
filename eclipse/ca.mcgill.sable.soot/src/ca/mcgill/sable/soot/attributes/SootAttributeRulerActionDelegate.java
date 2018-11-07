@@ -31,7 +31,7 @@ import ca.mcgill.sable.soot.editors.JimpleEditor;
 
 public class SootAttributeRulerActionDelegate extends AbstractRulerActionDelegate {
 
-	/**
+	/*
 	 * @param bundle
 	 * @param prefix
 	 * @param editor

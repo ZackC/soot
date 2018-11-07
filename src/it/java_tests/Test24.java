@@ -19,22 +19,6 @@
  * <http://www.gnu.org/licenses/lgpl-2.1.html>.
  * #L%
  */
-class HelperWithParams {
-
-    public static void main(String [] args){
-    }
-    public HelperWithParams(int x, int y){
-        
-    }
-    
-    public HelperWithParams(){
-        
-    }
-    
-    public void action(){
-        System.out.println("Helper");
-    }
-}
 public class Test24 {
 
     public static void main (String [] args){

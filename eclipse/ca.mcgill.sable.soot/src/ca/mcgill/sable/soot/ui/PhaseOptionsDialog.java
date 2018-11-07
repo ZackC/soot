@@ -41,6 +41,10 @@ import org.eclipse.swt.events.*;
 import org.eclipse.swt.layout.*;
 import org.eclipse.swt.widgets.*;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.StringTokenizer;
+
 public class PhaseOptionsDialog extends AbstractOptionsDialog implements SelectionListener {
 
 	public PhaseOptionsDialog(Shell parentShell) {
@@ -9404,7 +9408,7 @@ public class PhaseOptionsDialog extends AbstractOptionsDialog implements Selecti
 			defaultBool = false;
 		}
 
-		setjbstabilize_local_names_widget(new BooleanOptionWidget(editGroupjb, SWT.NONE, new OptionData("Stabilize local names", "p phase-option", "jb","stabilize-local-names", "\nMake sure that local names are stable between runs. This \nrequires re-normalizing all local names after the standard \ntransformations, sorting them, and padding all local names with \nleading zeros up to the maximum number of digits in the local \nwith the highest integer value. This can negatively impact \nperformance. This option automatically sets "sort-locals" in \n"jb.lns" during the second re-normalization pass.", defaultBool)));
+		setjbstabilize_local_names_widget(new BooleanOptionWidget(editGroupjb, SWT.NONE, new OptionData("Stabilize local names", "p phase-option", "jb","stabilize-local-names", "\nMake sure that local names are stable between runs. This \nrequires re-normalizing all local names after the standard \ntransformations, sorting them, and padding all local names with \nleading zeros up to the maximum number of digits in the local \nwith the highest integer value. This can negatively impact \nperformance. This option automatically sets \"sort-locals\" in \n\"jb.lns\" during the second re-normalization pass.", defaultBool)));
 
 
 		return editGroupjb;

@@ -19,7 +19,7 @@
  * <http://www.gnu.org/licenses/lgpl-2.1.html>.
  * #L%
  */
-interface MyListener {
+interface MyListener13 {
     public void action();
 }
 
@@ -27,27 +27,27 @@ public class Test13 {
 
     public static void main (String [] args){
         Test13 t13 = new Test13();
-        MyListener ml = t13.run();
+        MyListener13 ml = t13.run();
         ml.action();
-        MyListener ml2 = t13.runAgain();
+        MyListener13 ml2 = t13.runAgain();
         ml2.action();
     }
 
-    public MyListener run(){
-        class MyListener1 implements MyListener {
+    public MyListener13 run(){
+        class MyListener1_13 implements MyListener13 {
             public void action(){
                 System.out.println("Smile");
             }
         };
-        return new MyListener1();
+        return new MyListener1_13();
     }
     
-    public MyListener runAgain(){
-        class MyListener1 implements MyListener {
+    public MyListener13 runAgain(){
+        class MyListener1_13 implements MyListener13 {
             public void action(){
                 System.out.println("Smile 2");
             }
         };
-        return new MyListener1();
+        return new MyListener1_13();
     }
 }

@@ -19,19 +19,19 @@
  * <http://www.gnu.org/licenses/lgpl-2.1.html>.
  * #L%
  */
-interface I { }
+interface Iv1 { }
 
-class A implements I { }
+class Av1 implements Iv1 { }
 
 public class IVoke {
 
-    public static void test(I i) {
+    public static void test(Iv1 i) {
         // the use of i.getClass() leads to problem
         System.out.println(i.getClass());
     }
    
     static public void main (String[] args) {
-        I a = new A();
+        Iv1 a = new Av1();
         test(a);
     }
 }                                     

@@ -27,12 +27,12 @@ public class Test36 {
     }
 
     public void run(){
-        TopLevel tl = new TopLevel();
+        TopLevel36 tl = new TopLevel36();
         tl.run();
     }
 }
 
-class TopLevel {
+class TopLevel36 {
 
     public void run(){
         System.out.println("TopLevel in file Test36.java");

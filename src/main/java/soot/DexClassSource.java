@@ -60,6 +60,9 @@ public class DexClassSource extends ClassSource {
     if (Options.v().verbose()) {
       logger.debug("resolving " + className + " from file " + path.getPath());
     }
+    if(sc.getName().contains("OtherMetadata")){
+      System.out.println("resolving: "+sc.getName());
+    }
     return DexResolver.v().resolveFromFile(path, className, sc);
   }
 }

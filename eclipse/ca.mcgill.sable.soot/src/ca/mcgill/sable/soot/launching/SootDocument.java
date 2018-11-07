@@ -22,9 +22,11 @@ package ca.mcgill.sable.soot.launching;
 import java.io.PrintStream;
 
 import org.eclipse.jface.text.*;
+import org.eclipse.jface.text.Document;
 import org.eclipse.ui.*;
 import ca.mcgill.sable.soot.*;
 import ca.mcgill.sable.soot.ui.*;
+
 
 /**
  * Document for SootOutputView
