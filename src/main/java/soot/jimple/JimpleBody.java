@@ -49,7 +49,7 @@ import soot.validation.BodyValidator;
 import soot.validation.ValidationException;
 
 /** Implementation of the Body class for the Jimple IR. */
-public class JimpleBody extends StmtBody {
+public class JimpleBody extends soot.jimple.StmtBody {
   private static BodyValidator[] validators;
 
   /**
